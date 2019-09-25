@@ -6,12 +6,13 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
 
-    public float jumpForce = 7.5f;
+    public float jumpForce = 2.5f;
     public string currentColor;
 
     public Rigidbody2D rb;
     public SpriteRenderer sr;
     public GameObject smallCircle;
+    public GameObject square;
     public GameObject colorChanger;
 
     private Transform colorChangerTranform;
@@ -44,8 +45,8 @@ public class Player : MonoBehaviour
         {
             setRandomColor(); //TODO: Change to already existed color
             colorChangerTranform = collision.gameObject.GetComponent<Transform>();
-            Instantiate(colorChanger, new Vector3(0, colorChangerTranform.position.y + 8f, 0), Quaternion.identity);
-            Instantiate(smallCircle, new Vector3(0, colorChangerTranform.position.y + 12f, 0), Quaternion.identity); //TODO: Random object
+            Instantiate(colorChanger, new Vector3(0, colorChangerTranform.position.y + 7f, 0), Quaternion.identity);
+            instantiateRandomObject();
             Destroy(collision.gameObject);
             return;
         }
@@ -60,6 +61,15 @@ public class Player : MonoBehaviour
             //instantiate prefab
         }
        
+    }
+
+    void instantiateRandomObject()
+    {
+        int r = Random.Range(0, 2);
+        if (r == 0)
+            Instantiate(smallCircle, new Vector3(0, colorChangerTranform.position.y + 10.5f, 0), Quaternion.identity);
+        else
+            Instantiate(square, new Vector3(0, colorChangerTranform.position.y + 10.5f, 0), Quaternion.identity);
     }
 
     void setRandomColor()
