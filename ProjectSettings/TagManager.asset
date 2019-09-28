@@ -11,6 +11,8 @@ TagManager:
   - ColorChanger
   - SmallCircle
   - Destroyer
+  - Point
+  - Plus
   layers:
   - Default
   - TransparentFX
@@ -50,4 +52,13 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2545055737
+    locked: 0
+  - name: Cyan
+    uniqueID: 730189197
+    locked: 0
+  - name: 
+    uniqueID: 361103035
+    locked: 0
+  - name: Magenta
+    uniqueID: 2670271597
     locked: 0

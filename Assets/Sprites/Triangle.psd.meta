@@ -1,11 +1,10 @@
 fileFormatVersion: 2
-guid: 3922f0eff092b2442bdd93ed1e670f39
+guid: ad1e877597fed0144b5eaa537e05c5e6
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Square_0
-    21300002: Square_1
-    21300004: Square_2
-    21300006: Square_3
+    21300000: Triangle_0
+    21300002: Triangle_1
+    21300004: Triangle_2
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -99,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Square_0
+      name: Triangle_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 56
-        width: 40
-        height: 383
+        x: 148
+        y: 328
+        width: 280
+        height: 445
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,19 +112,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d23b12fa49eb8e643aa7f69a75589c91
+      spriteID: 3d009e1339c15904abebd6ba0b256583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Square_1
+      name: Triangle_1
       rect:
         serializedVersion: 2
-        x: 77
-        y: 428
-        width: 382
-        height: 40
+        x: 585
+        y: 329
+        width: 281
+        height: 447
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,19 +132,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 873f04e6c12dd414e89dad71578d951d
+      spriteID: c13552f1b25f48e4fb02dc42c0cd5295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Square_2
+      name: Triangle_2
       rect:
         serializedVersion: 2
-        x: 439
-        y: 56
-        width: 41
-        height: 382
+        x: 248
+        y: 223
+        width: 504
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,27 +152,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5afef3e0c28245d46b27eccfaeb586fe
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Square_3
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 36
-        width: 383
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3302c3aa95f414643997644fce197176
+      spriteID: c4b04f781597ec24b84febf915e551b2
       vertices: []
       indices: 
       edges: []
@@ -181,7 +160,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 64dcf372ab490eb47be5f1d92cb9772a
+    spriteID: 6bfa7f7fe2465d94c9e9695f83dd3218
     vertices: []
     indices: 
     edges: []

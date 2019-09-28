@@ -1,11 +1,7 @@
 fileFormatVersion: 2
-guid: 3922f0eff092b2442bdd93ed1e670f39
+guid: fea5e5a23c88abf4fa58a5d7d65c758d
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Square_0
-    21300002: Square_1
-    21300004: Square_2
-    21300006: Square_3
+  fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -44,7 +40,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -97,91 +93,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Square_0
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 56
-        width: 40
-        height: 383
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d23b12fa49eb8e643aa7f69a75589c91
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Square_1
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 428
-        width: 382
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 873f04e6c12dd414e89dad71578d951d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Square_2
-      rect:
-        serializedVersion: 2
-        x: 439
-        y: 56
-        width: 41
-        height: 382
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5afef3e0c28245d46b27eccfaeb586fe
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Square_3
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 36
-        width: 383
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3302c3aa95f414643997644fce197176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 64dcf372ab490eb47be5f1d92cb9772a
+    spriteID: 150656d5cb7f62e44b83fd8d08307b2b
     vertices: []
     indices: 
     edges: []

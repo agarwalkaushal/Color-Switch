@@ -397,7 +397,7 @@ GameObject:
   - component: {fileID: 7522960415700543868}
   m_Layer: 0
   m_Name: SmallCircle
-  m_TagString: Untagged
+  m_TagString: SmallCircle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -432,7 +432,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16ffa30cd72cca54f856f6f0709caa5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
 --- !u!1 &7522960415853743948
 GameObject:
   m_ObjectHideFlags: 0

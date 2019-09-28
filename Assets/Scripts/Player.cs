@@ -2,18 +2,34 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+    private float jumpForce = 8.5f;
+    private string currentColor = "null";
+    private int Score = 0;
+    private int highScore = 0;
 
-    public float jumpForce = 2.5f;
-    public string currentColor;
+    private enum Colors
+    {
+        Cyan = 0,
+        Yellow = 1,
+        Magenta = 2,
+        Pink = 3
+    }
 
     public Rigidbody2D rb;
     public SpriteRenderer sr;
+    public Text scoreText;
     public GameObject smallCircle;
     public GameObject square;
+    public GameObject plus;
+    public GameObject triangle;
     public GameObject colorChanger;
+    public GameObject hand;
+    public GameObject point;
+    public GameObject score;
 
     private Transform colorChangerTranform;
 
@@ -24,26 +40,46 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        Application.targetFrameRate = 60;
         setRandomColor();
-        rb.velocity = Vector2.up * jumpForce;
+        if (PlayerPrefs.HasKey("HighScore"))
+        {
+            highScore = PlayerPrefs.GetInt("HighScore");
+        }
+        Time.timeScale = 0;
     }
 
-    void Update()
+    private void Update()
     {
         if(Input.GetMouseButtonDown(0))
         {
             rb.velocity = Vector2.up * jumpForce;
         }
+
+        if(Score>highScore)
+        {
+            highScore = Score;
+            PlayerPrefs.SetInt("HighScore", highScore);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if(collision.tag == "Point")
+        {
+            Destroy(collision.gameObject);
+            Score += 1;
+            scoreText.text = Score.ToString();
+            return;
+        }
+
+
         if (collision.tag == "SmallCircle")
             return;
 
         if(collision.tag == "ColorChanger")
         {
-            setRandomColor(); //TODO: Change to already existed color
+            setRandomColor();
             colorChangerTranform = collision.gameObject.GetComponent<Transform>();
             Instantiate(colorChanger, new Vector3(0, colorChangerTranform.position.y + 7f, 0), Quaternion.identity);
             instantiateRandomObject();
@@ -56,27 +92,46 @@ public class Player : MonoBehaviour
             Debug.Log("Game Over");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
-        else
-        {
-            //instantiate prefab
-        }
        
     }
 
     void instantiateRandomObject()
     {
-        int r = Random.Range(0, 2);
+        int r = Random.Range(0, 4);
+
+        if(r != 1)
+        {
+            Instantiate(point, new Vector3(0, colorChangerTranform.position.y + 10.5f, 0), Quaternion.identity);
+        }
+
         if (r == 0)
             Instantiate(smallCircle, new Vector3(0, colorChangerTranform.position.y + 10.5f, 0), Quaternion.identity);
-        else
+        else if (r == 1)
+        {
+            int r1 = Random.Range(0, 2);
+            if(r1 == 0)
+                Instantiate(plus, new Vector3(-0.75f, colorChangerTranform.position.y + 10.5f, 0), Quaternion.identity);
+            else
+                Instantiate(plus, new Vector3(0.75f, colorChangerTranform.position.y + 10.5f, 0), Quaternion.identity);
+        }
+        else if(r == 2)
             Instantiate(square, new Vector3(0, colorChangerTranform.position.y + 10.5f, 0), Quaternion.identity);
+        else
+            Instantiate(triangle, new Vector3(0, colorChangerTranform.position.y + 10.5f, 0), Quaternion.identity);
     }
 
     void setRandomColor()
     {
+        
         int index = Random.Range(0, 4);
-
-        switch(index)
+        if(System.Enum.GetName(typeof(Colors), index) == currentColor && currentColor!="null")
+        {
+            if (index == 3)
+                index = 0;
+            else
+                index += 1;
+        }
+        switch (index)
         {
             case 0:
                 currentColor = "Cyan";
@@ -96,5 +151,13 @@ public class Player : MonoBehaviour
                 break;
 
         }
+    }
+
+    public void Play()
+    {
+        hand.SetActive(false);
+        Time.timeScale = 1;
+        score.SetActive(true);
+        rb.velocity = Vector2.up * jumpForce;
     }
 }
