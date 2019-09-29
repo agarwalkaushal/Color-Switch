@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -10,6 +11,7 @@ public class Player : MonoBehaviour
     private string currentColor = "null";
     private int Score = 0;
     private int highScore = 0;
+    private bool boolDeath = false;
 
     private enum Colors
     {
@@ -22,6 +24,12 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb;
     public SpriteRenderer sr;
     public Text scoreText;
+
+    public Animator plusOneAnim;
+    public Animator plusTwoAnim;
+
+    public GameOver gameOver;
+
     public GameObject smallCircle;
     public GameObject square;
     public GameObject plus;
@@ -30,6 +38,9 @@ public class Player : MonoBehaviour
     public GameObject hand;
     public GameObject point;
     public GameObject score;
+    public GameObject dashCanvas;
+    public GameObject dashboard;
+    public GameObject close;
 
     private Transform colorChangerTranform;
 
@@ -51,7 +62,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
         {
             rb.velocity = Vector2.up * jumpForce;
         }
@@ -70,12 +81,18 @@ public class Player : MonoBehaviour
             Destroy(collision.gameObject);
             Score += 1;
             scoreText.text = Score.ToString();
+            plusOneAnim.Play("Plus One");
             return;
         }
 
-
-        if (collision.tag == "SmallCircle")
+        if (collision.tag == "Golden")
+        {
+            Destroy(collision.gameObject);
+            Score += 2;
+            scoreText.text = Score.ToString();
+            plusTwoAnim.Play("Plus One");
             return;
+        }
 
         if(collision.tag == "ColorChanger")
         {
@@ -89,8 +106,8 @@ public class Player : MonoBehaviour
 
         if(collision.tag != currentColor)
         {
-            Debug.Log("Game Over");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            //Play death animation
+            gameOver.gameOver();
         }
        
     }
@@ -158,6 +175,26 @@ public class Player : MonoBehaviour
         hand.SetActive(false);
         Time.timeScale = 1;
         score.SetActive(true);
+        dashboard.SetActive(true);
+        rb.velocity = Vector2.up * jumpForce;
+    }
+
+    public void Pause()
+    {
+        Time.timeScale = 0;
+        dashCanvas.SetActive(true);
+        score.SetActive(false);
+        dashboard.SetActive(false);
+        close.SetActive(true);      
+    }
+
+    public void Continue()
+    {
+        Time.timeScale = 1;
+        dashCanvas.SetActive(false);
+        score.SetActive(true);
+        dashboard.SetActive(true);
+        close.SetActive(false);
         rb.velocity = Vector2.up * jumpForce;
     }
 }

@@ -32,7 +32,7 @@ public class Rotator : MonoBehaviour
             foreach (Transform t in transforms)
             {
                 int r = Random.Range(0, 4);
-                if (t.gameObject.tag == "Point")
+                if (t.gameObject.tag == "Golden")
                 {
                     if (r == 0)
                         t.gameObject.transform.localPosition = new Vector3(-0.75f, -0.75f, t.gameObject.transform.position.z);

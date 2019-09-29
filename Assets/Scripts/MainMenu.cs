@@ -42,4 +42,14 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void MoreGames()
+    {
+        Application.OpenURL("https://play.google.com/store/apps/dev?id=7338777534892840680");
+    }
 }
