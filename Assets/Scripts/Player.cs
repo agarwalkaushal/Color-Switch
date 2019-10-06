@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -7,11 +6,12 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    private float jumpForce = 8.5f;
+    private float jumpForce = 8f;
     private string currentColor = "null";
     private int Score = 0;
     private int highScore = 0;
     private bool boolDeath = false;
+    private bool gameStart = false;
 
     private enum Colors
     {
@@ -24,25 +24,38 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb;
     public SpriteRenderer sr;
     public Text scoreText;
+    public Text finalScoreText;
+    public Text highScoreText;
 
     public Animator plusOneAnim;
     public Animator plusTwoAnim;
 
     public GameOver gameOver;
 
+    public GameObject particleSystem;
+
+    public AudioSource playerJump;
+    public AudioSource plusOnePoint;
+    public AudioSource plusTwoPoint;
+    public AudioSource hitShape;
+    public AudioSource background;
+
     public GameObject smallCircle;
     public GameObject square;
     public GameObject plus;
-    public GameObject triangle;
+    //public GameObject doubleCircle;
     public GameObject colorChanger;
     public GameObject hand;
     public GameObject point;
     public GameObject score;
     public GameObject dashCanvas;
-    public GameObject dashboard;
-    public GameObject close;
+    public GameObject dashPanel;
+    public GameObject destroyer;
+    public GameObject fallDeath;
 
     private Transform colorChangerTranform;
+    private Transform playerTransform;
+    private SpriteRenderer playerSprite;
 
     public Color colorCyan;
     public Color colorYellow;
@@ -52,6 +65,8 @@ public class Player : MonoBehaviour
     private void Start()
     {
         Application.targetFrameRate = 60;
+        playerTransform = gameObject.GetComponent<Transform>();
+        playerSprite = gameObject.GetComponent<SpriteRenderer>();
         setRandomColor();
         if (PlayerPrefs.HasKey("HighScore"))
         {
@@ -62,8 +77,23 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
+        if (boolDeath)
         {
+            background.Stop();
+            finalScoreText.text = "Score: " + Score.ToString();
+            if (PlayerPrefs.HasKey("HighScore"))
+            {
+                highScoreText.text = "Best: " + PlayerPrefs.GetInt("HighScore").ToString();
+            }
+            else
+            {
+                highScoreText.text = "Best: " + Score.ToString();
+            }
+        }
+        if(gameStart && Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject() && !boolDeath)
+        {
+            playerJump.Stop();
+            playerJump.Play();
             rb.velocity = Vector2.up * jumpForce;
         }
 
@@ -76,8 +106,22 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Point")
+
+        if (boolDeath)
+            return;
+
+        if (collision.tag == "Destroyer")
         {
+            boolDeath = true;
+            Handheld.Vibrate();
+            StartCoroutine(FadeTo());
+            StartCoroutine(playFallAnim());
+            return;
+        }
+
+        if (collision.tag == "Point")
+        {
+            plusOnePoint.Play();
             Destroy(collision.gameObject);
             Score += 1;
             scoreText.text = Score.ToString();
@@ -87,6 +131,7 @@ public class Player : MonoBehaviour
 
         if (collision.tag == "Golden")
         {
+            plusTwoPoint.Play();
             Destroy(collision.gameObject);
             Score += 2;
             scoreText.text = Score.ToString();
@@ -104,17 +149,50 @@ public class Player : MonoBehaviour
             return;
         }
 
-        if(collision.tag != currentColor)
+        if (collision.tag != currentColor)
         {
-            //Play death animation
-            gameOver.gameOver();
+            boolDeath = true;
+            Handheld.Vibrate();
+            hitShape.Play();
+            StartCoroutine(FadeTo());
+            StartCoroutine(playDeathAnim());
         }
        
     }
 
+    IEnumerator FadeTo()
+    {
+        Image image = dashPanel.GetComponent<Image>();
+        float alpha = image.color.a;
+        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / 1)
+        {
+            Color newColor = new Color(0, 0, 0  , Mathf.Lerp(alpha, 0.85f, t));
+            image.color = newColor;
+            yield return null;
+        }
+    }
+
+    private IEnumerator playFallAnim()
+    {
+        playerSprite.color = Color.clear;
+        yield return new WaitForSeconds(.50f);
+        gameOver.gameOver();
+    }
+
+    private IEnumerator playDeathAnim()
+    {
+        Transform particleSystemTransform = particleSystem.GetComponent<Transform>();
+        particleSystemTransform.position = playerTransform.position;
+        playerSprite.color = Color.clear;
+        particleSystem.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        gameOver.gameOver();
+    }
+
+
     void instantiateRandomObject()
     {
-        int r = Random.Range(0, 4);
+        int r = Random.Range(0, 3);
 
         if(r != 1)
         {
@@ -131,10 +209,10 @@ public class Player : MonoBehaviour
             else
                 Instantiate(plus, new Vector3(0.75f, colorChangerTranform.position.y + 10.5f, 0), Quaternion.identity);
         }
-        else if(r == 2)
-            Instantiate(square, new Vector3(0, colorChangerTranform.position.y + 10.5f, 0), Quaternion.identity);
         else
-            Instantiate(triangle, new Vector3(0, colorChangerTranform.position.y + 10.5f, 0), Quaternion.identity);
+            Instantiate(square, new Vector3(0, colorChangerTranform.position.y + 10.5f, 0), Quaternion.identity);
+
+        //Instantiate(doubleCircle, new Vector3(0, colorChangerTranform.position.y + 10.5f, 0), Quaternion.identity);
     }
 
     void setRandomColor()
@@ -172,29 +250,12 @@ public class Player : MonoBehaviour
 
     public void Play()
     {
+        gameStart = true;
+        background.Play();
         hand.SetActive(false);
         Time.timeScale = 1;
         score.SetActive(true);
-        dashboard.SetActive(true);
         rb.velocity = Vector2.up * jumpForce;
     }
 
-    public void Pause()
-    {
-        Time.timeScale = 0;
-        dashCanvas.SetActive(true);
-        score.SetActive(false);
-        dashboard.SetActive(false);
-        close.SetActive(true);      
-    }
-
-    public void Continue()
-    {
-        Time.timeScale = 1;
-        dashCanvas.SetActive(false);
-        score.SetActive(true);
-        dashboard.SetActive(true);
-        close.SetActive(false);
-        rb.velocity = Vector2.up * jumpForce;
-    }
 }

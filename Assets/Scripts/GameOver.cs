@@ -1,25 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
     public GameObject score;
     public GameObject dashCanvas;
-    public GameObject dashboard;
-    public GameObject close;
     public GameObject plusOneUI;
     public GameObject plusTwoUI;
 
+    public AudioSource buttonClick;
+
     public void gameOver()
     {
-        Debug.Log("gameOver called");
         Time.timeScale = 0;
         dashCanvas.SetActive(true);
         score.SetActive(false);
-        dashboard.SetActive(false);
-        close.SetActive(false);
         plusOneUI.SetActive(false);
         plusTwoUI.SetActive(false);
 
@@ -27,11 +22,13 @@ public class GameOver : MonoBehaviour
 
     public void Replay()
     {
+        buttonClick.Play();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void Home()
     {
+        buttonClick.Play();
         SceneManager.LoadScene(0);
     }
 }
