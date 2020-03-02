@@ -1,0 +1,996 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2020-02-29T16:42:32.230+05:30
+  initializedAtString: 2020-02-29T16:42:32.230+05:30
+  entries:
+  - path: Assets\Anims.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Anims.meta
+    projectPath: Assets\Anims.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Audios.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Audios.meta
+    projectPath: Assets\Audios.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost.meta
+    projectPath: Assets\Chartboost.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Chartboost.prefab
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Chartboost.prefab
+    projectPath: Assets\Chartboost\Chartboost.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Chartboost.prefab.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Chartboost.prefab.meta
+    projectPath: Assets\Chartboost\Chartboost.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor.meta
+    projectPath: Assets\Chartboost\Editor.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\CBCleanup.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\CBCleanup.cs
+    projectPath: Assets\Chartboost\Editor\CBCleanup.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\CBCleanup.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\CBCleanup.cs.meta
+    projectPath: Assets\Chartboost\Editor\CBCleanup.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\CBManifestEditor.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\CBManifestEditor.cs
+    projectPath: Assets\Chartboost\Editor\CBManifestEditor.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\CBManifestEditor.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\CBManifestEditor.cs.meta
+    projectPath: Assets\Chartboost\Editor\CBManifestEditor.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\CBPostProcess.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\CBPostProcess.cs
+    projectPath: Assets\Chartboost\Editor\CBPostProcess.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\CBPostProcess.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\CBPostProcess.cs.meta
+    projectPath: Assets\Chartboost\Editor\CBPostProcess.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\CBSettingEditor.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\CBSettingEditor.cs
+    projectPath: Assets\Chartboost\Editor\CBSettingEditor.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\CBSettingEditor.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\CBSettingEditor.cs.meta
+    projectPath: Assets\Chartboost\Editor\CBSettingEditor.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\ChartboostDependencies.xml
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\ChartboostDependencies.xml
+    projectPath: Assets\Chartboost\Editor\ChartboostDependencies.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\ChartboostDependencies.xml.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\ChartboostDependencies.xml.meta
+    projectPath: Assets\Chartboost\Editor\ChartboostDependencies.xml.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\LICENSE
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\LICENSE
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\LICENSE
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\LICENSE.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\LICENSE.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\LICENSE.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXBuildFile.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXBuildFile.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXBuildFile.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXBuildFile.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXBuildFile.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXBuildFile.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXBuildPhase.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXBuildPhase.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXBuildPhase.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXBuildPhase.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXBuildPhase.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXBuildPhase.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXDictionary.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXDictionary.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXDictionary.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXDictionary.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXDictionary.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXDictionary.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXFileReference.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXFileReference.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXFileReference.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXFileReference.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXFileReference.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXFileReference.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXGroup.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXGroup.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXGroup.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXGroup.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXGroup.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXGroup.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXList.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXList.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXList.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXList.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXList.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXList.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXObject.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXObject.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXObject.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXObject.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXObject.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXObject.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXParser.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXParser.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXParser.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXParser.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXParser.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXParser.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXProject.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXProject.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXProject.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\PBXProject.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\PBXProject.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\PBXProject.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\Readme.mdown
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\Readme.mdown
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\Readme.mdown
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\Readme.mdown.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\Readme.mdown.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\Readme.mdown.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XCBuildConfiguration.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XCBuildConfiguration.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XCBuildConfiguration.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XCBuildConfiguration.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XCBuildConfiguration.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XCBuildConfiguration.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XCConfigurationList.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XCConfigurationList.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XCConfigurationList.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XCConfigurationList.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XCConfigurationList.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XCConfigurationList.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XCFileOperationQueue.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XCFileOperationQueue.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XCFileOperationQueue.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XCFileOperationQueue.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XCFileOperationQueue.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XCFileOperationQueue.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XCMod.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XCMod.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XCMod.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XCMod.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XCMod.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XCMod.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XCodeEditorMenu.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XCodeEditorMenu.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XCodeEditorMenu.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XCodeEditorMenu.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XCodeEditorMenu.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XCodeEditorMenu.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XCProject.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XCProject.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XCProject.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XCProject.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XCProject.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XCProject.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XCSourceFile.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XCSourceFile.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XCSourceFile.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XCSourceFile.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XCSourceFile.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XCSourceFile.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XCTarget.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XCTarget.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XCTarget.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XCTarget.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XCTarget.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XCTarget.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XMiniJSON.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XMiniJSON.cs
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XMiniJSON.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeEditor\XMiniJSON.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeEditor\XMiniJSON.cs.meta
+    projectPath: Assets\Chartboost\Editor\XCodeEditor\XMiniJSON.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeSettings.projmods
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeSettings.projmods
+    projectPath: Assets\Chartboost\Editor\XCodeSettings.projmods
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Editor\XCodeSettings.projmods.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Editor\XCodeSettings.projmods.meta
+    projectPath: Assets\Chartboost\Editor\XCodeSettings.projmods.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Examples.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Examples.meta
+    projectPath: Assets\Chartboost\Examples.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Examples\ChartboostExample.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Examples\ChartboostExample.meta
+    projectPath: Assets\Chartboost\Examples\ChartboostExample.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Examples\ChartboostExample\Chartboost_icon_144.png
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Examples\ChartboostExample\Chartboost_icon_144.png
+    projectPath: Assets\Chartboost\Examples\ChartboostExample\Chartboost_icon_144.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Examples\ChartboostExample\Chartboost_icon_144.png.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Examples\ChartboostExample\Chartboost_icon_144.png.meta
+    projectPath: Assets\Chartboost\Examples\ChartboostExample\Chartboost_icon_144.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Examples\ChartboostExample\ChartboostExample.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Examples\ChartboostExample\ChartboostExample.cs
+    projectPath: Assets\Chartboost\Examples\ChartboostExample\ChartboostExample.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Examples\ChartboostExample\ChartboostExample.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Examples\ChartboostExample\ChartboostExample.cs.meta
+    projectPath: Assets\Chartboost\Examples\ChartboostExample\ChartboostExample.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Examples\ChartboostExample\ChartboostExample.unity
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Examples\ChartboostExample\ChartboostExample.unity
+    projectPath: Assets\Chartboost\Examples\ChartboostExample\ChartboostExample.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Examples\ChartboostExample\ChartboostExample.unity.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Examples\ChartboostExample\ChartboostExample.unity.meta
+    projectPath: Assets\Chartboost\Examples\ChartboostExample\ChartboostExample.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Examples\ChartboostExample\Chartboost-LogoH1.png
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Examples\ChartboostExample\Chartboost-LogoH1.png
+    projectPath: Assets\Chartboost\Examples\ChartboostExample\Chartboost-LogoH1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Examples\ChartboostExample\Chartboost-LogoH1.png.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Examples\ChartboostExample\Chartboost-LogoH1.png.meta
+    projectPath: Assets\Chartboost\Examples\ChartboostExample\Chartboost-LogoH1.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Resources.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Resources.meta
+    projectPath: Assets\Chartboost\Resources.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Resources\ChartboostSettings.asset
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Resources\ChartboostSettings.asset
+    projectPath: Assets\Chartboost\Resources\ChartboostSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Resources\ChartboostSettings.asset.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Resources\ChartboostSettings.asset.meta
+    projectPath: Assets\Chartboost\Resources\ChartboostSettings.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Scripts.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Scripts.meta
+    projectPath: Assets\Chartboost\Scripts.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Scripts\CBExternal.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Scripts\CBExternal.cs
+    projectPath: Assets\Chartboost\Scripts\CBExternal.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Scripts\CBExternal.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Scripts\CBExternal.cs.meta
+    projectPath: Assets\Chartboost\Scripts\CBExternal.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Scripts\CBInPlay.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Scripts\CBInPlay.cs
+    projectPath: Assets\Chartboost\Scripts\CBInPlay.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Scripts\CBInPlay.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Scripts\CBInPlay.cs.meta
+    projectPath: Assets\Chartboost\Scripts\CBInPlay.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Scripts\CBJSON.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Scripts\CBJSON.cs
+    projectPath: Assets\Chartboost\Scripts\CBJSON.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Scripts\CBJSON.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Scripts\CBJSON.cs.meta
+    projectPath: Assets\Chartboost\Scripts\CBJSON.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Scripts\CBSettings.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Scripts\CBSettings.cs
+    projectPath: Assets\Chartboost\Scripts\CBSettings.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Scripts\CBSettings.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Scripts\CBSettings.cs.meta
+    projectPath: Assets\Chartboost\Scripts\CBSettings.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Scripts\Chartboost.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Scripts\Chartboost.cs
+    projectPath: Assets\Chartboost\Scripts\Chartboost.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Chartboost\Scripts\Chartboost.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Chartboost\Scripts\Chartboost.cs.meta
+    projectPath: Assets\Chartboost\Scripts\Chartboost.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Fonts.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Fonts.meta
+    projectPath: Assets\Fonts.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\PlayServicesResolver.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\PlayServicesResolver.meta
+    projectPath: Assets\PlayServicesResolver.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\PlayServicesResolver\Editor.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\PlayServicesResolver\Editor.meta
+    projectPath: Assets\PlayServicesResolver\Editor.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.92.0.txt
+    fullPath: D:\Unity3D\Color Switch\Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.92.0.txt
+    projectPath: Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.92.0.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.92.0.txt.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.92.0.txt.meta
+    projectPath: Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.92.0.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins.meta
+    projectPath: Assets\Plugins.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\Android.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\Android.meta
+    projectPath: Assets\Plugins\Android.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\Android\AndroidManifest.xml
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\Android\AndroidManifest.xml
+    projectPath: Assets\Plugins\Android\AndroidManifest.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\Android\AndroidManifest.xml.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\Android\AndroidManifest.xml.meta
+    projectPath: Assets\Plugins\Android\AndroidManifest.xml.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\Android\ChartboostSDK.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\Android\ChartboostSDK.meta
+    projectPath: Assets\Plugins\Android\ChartboostSDK.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml
+    projectPath: Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml.meta
+    projectPath: Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\Android\ChartboostSDK\libs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\Android\ChartboostSDK\libs.meta
+    projectPath: Assets\Plugins\Android\ChartboostSDK\libs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\Android\ChartboostSDK\libs\android_bridge.jar
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\Android\ChartboostSDK\libs\android_bridge.jar
+    projectPath: Assets\Plugins\Android\ChartboostSDK\libs\android_bridge.jar
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\Android\ChartboostSDK\libs\android_bridge.jar.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\Android\ChartboostSDK\libs\android_bridge.jar.meta
+    projectPath: Assets\Plugins\Android\ChartboostSDK\libs\android_bridge.jar.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\Android\ChartboostSDK\libs\chartboost.jar
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\Android\ChartboostSDK\libs\chartboost.jar
+    projectPath: Assets\Plugins\Android\ChartboostSDK\libs\chartboost.jar
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\Android\ChartboostSDK\libs\chartboost.jar.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\Android\ChartboostSDK\libs\chartboost.jar.meta
+    projectPath: Assets\Plugins\Android\ChartboostSDK\libs\chartboost.jar.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\Android\ChartboostSDK\project.properties
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\Android\ChartboostSDK\project.properties
+    projectPath: Assets\Plugins\Android\ChartboostSDK\project.properties
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\Android\ChartboostSDK\project.properties.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\Android\ChartboostSDK\project.properties.meta
+    projectPath: Assets\Plugins\Android\ChartboostSDK\project.properties.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\Android\proguard-user.txt
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\Android\proguard-user.txt
+    projectPath: Assets\Plugins\Android\proguard-user.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\Android\proguard-user.txt.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\Android\proguard-user.txt.meta
+    projectPath: Assets\Plugins\Android\proguard-user.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS.meta
+    projectPath: Assets\Plugins\iOS.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\CBAnalytics.h
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\CBAnalytics.h
+    projectPath: Assets\Plugins\iOS\CBAnalytics.h
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\CBAnalytics.h.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\CBAnalytics.h.meta
+    projectPath: Assets\Plugins\iOS\CBAnalytics.h.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\CBInPlay.h
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\CBInPlay.h
+    projectPath: Assets\Plugins\iOS\CBInPlay.h
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\CBInPlay.h.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\CBInPlay.h.meta
+    projectPath: Assets\Plugins\iOS\CBInPlay.h.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\Chartboost.h
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\Chartboost.h
+    projectPath: Assets\Plugins\iOS\Chartboost.h
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\Chartboost.h.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\Chartboost.h.meta
+    projectPath: Assets\Plugins\iOS\Chartboost.h.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\ChartBoostBinding.m
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\ChartBoostBinding.m
+    projectPath: Assets\Plugins\iOS\ChartBoostBinding.m
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\ChartBoostBinding.m.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\ChartBoostBinding.m.meta
+    projectPath: Assets\Plugins\iOS\ChartBoostBinding.m.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\ChartboostDelegate.h
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\ChartboostDelegate.h
+    projectPath: Assets\Plugins\iOS\ChartboostDelegate.h
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\ChartboostDelegate.h.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\ChartboostDelegate.h.meta
+    projectPath: Assets\Plugins\iOS\ChartboostDelegate.h.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\ChartBoostManager.h
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\ChartBoostManager.h
+    projectPath: Assets\Plugins\iOS\ChartBoostManager.h
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\ChartBoostManager.h.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\ChartBoostManager.h.meta
+    projectPath: Assets\Plugins\iOS\ChartBoostManager.h.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\ChartBoostManager.mm
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\ChartBoostManager.mm
+    projectPath: Assets\Plugins\iOS\ChartBoostManager.mm
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\ChartBoostManager.mm.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\ChartBoostManager.mm.meta
+    projectPath: Assets\Plugins\iOS\ChartBoostManager.mm.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\libCHAMoatMobileAppKit.a
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\libCHAMoatMobileAppKit.a
+    projectPath: Assets\Plugins\iOS\libCHAMoatMobileAppKit.a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\libCHAMoatMobileAppKit.a.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\libCHAMoatMobileAppKit.a.meta
+    projectPath: Assets\Plugins\iOS\libCHAMoatMobileAppKit.a.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\libChartboost.a
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\libChartboost.a
+    projectPath: Assets\Plugins\iOS\libChartboost.a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\libChartboost.a.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\libChartboost.a.meta
+    projectPath: Assets\Plugins\iOS\libChartboost.a.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\LICENSE_MOAT.txt
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\LICENSE_MOAT.txt
+    projectPath: Assets\Plugins\iOS\LICENSE_MOAT.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\LICENSE_MOAT.txt.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\LICENSE_MOAT.txt.meta
+    projectPath: Assets\Plugins\iOS\LICENSE_MOAT.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\MOAT_LICENSE.txt
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\MOAT_LICENSE.txt
+    projectPath: Assets\Plugins\iOS\MOAT_LICENSE.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\MOAT_LICENSE.txt.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\MOAT_LICENSE.txt.meta
+    projectPath: Assets\Plugins\iOS\MOAT_LICENSE.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\MOAT_VERSION.txt
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\MOAT_VERSION.txt
+    projectPath: Assets\Plugins\iOS\MOAT_VERSION.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\MOAT_VERSION.txt.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\MOAT_VERSION.txt.meta
+    projectPath: Assets\Plugins\iOS\MOAT_VERSION.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\VERSION_MOAT.txt
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\VERSION_MOAT.txt
+    projectPath: Assets\Plugins\iOS\VERSION_MOAT.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\iOS\VERSION_MOAT.txt.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Plugins\iOS\VERSION_MOAT.txt.meta
+    projectPath: Assets\Plugins\iOS\VERSION_MOAT.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Prefabs.meta
+    projectPath: Assets\Prefabs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Scenes.meta
+    projectPath: Assets\Scenes.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\MainMenu.unity
+    fullPath: D:\Unity3D\Color Switch\Assets\Scenes\MainMenu.unity
+    projectPath: Assets\Scenes\MainMenu.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Scripts.meta
+    projectPath: Assets\Scripts.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\GameOver.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Scripts\GameOver.cs
+    projectPath: Assets\Scripts\GameOver.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\MainMenu.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Scripts\MainMenu.cs
+    projectPath: Assets\Scripts\MainMenu.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\RotatorBigCircle.cs
+    fullPath: D:\Unity3D\Color Switch\Assets\Scripts\RotatorBigCircle.cs
+    projectPath: Assets\Scripts\RotatorBigCircle.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\RotatorBigCircle.cs.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Scripts\RotatorBigCircle.cs.meta
+    projectPath: Assets\Scripts\RotatorBigCircle.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites.meta
+    projectPath: Assets\Sprites.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon.meta
+    projectPath: Assets\Sprites\Icon.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon.png
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon.png
+    projectPath: Assets\Sprites\Icon.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon.png.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon.png.meta
+    projectPath: Assets\Sprites\Icon.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon\mipmap-hdpi.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon\mipmap-hdpi.meta
+    projectPath: Assets\Sprites\Icon\mipmap-hdpi.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon\mipmap-hdpi\ic_launcher.png
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon\mipmap-hdpi\ic_launcher.png
+    projectPath: Assets\Sprites\Icon\mipmap-hdpi\ic_launcher.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon\mipmap-hdpi\ic_launcher.png.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon\mipmap-hdpi\ic_launcher.png.meta
+    projectPath: Assets\Sprites\Icon\mipmap-hdpi\ic_launcher.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon\mipmap-mdpi.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon\mipmap-mdpi.meta
+    projectPath: Assets\Sprites\Icon\mipmap-mdpi.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon\mipmap-mdpi\ic_launcher.png
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon\mipmap-mdpi\ic_launcher.png
+    projectPath: Assets\Sprites\Icon\mipmap-mdpi\ic_launcher.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon\mipmap-mdpi\ic_launcher.png.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon\mipmap-mdpi\ic_launcher.png.meta
+    projectPath: Assets\Sprites\Icon\mipmap-mdpi\ic_launcher.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon\mipmap-xhdpi.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon\mipmap-xhdpi.meta
+    projectPath: Assets\Sprites\Icon\mipmap-xhdpi.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon\mipmap-xhdpi\ic_launcher.png
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon\mipmap-xhdpi\ic_launcher.png
+    projectPath: Assets\Sprites\Icon\mipmap-xhdpi\ic_launcher.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon\mipmap-xhdpi\ic_launcher.png.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon\mipmap-xhdpi\ic_launcher.png.meta
+    projectPath: Assets\Sprites\Icon\mipmap-xhdpi\ic_launcher.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon\mipmap-xxhdpi.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon\mipmap-xxhdpi.meta
+    projectPath: Assets\Sprites\Icon\mipmap-xxhdpi.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon\mipmap-xxhdpi\ic_launcher.png
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon\mipmap-xxhdpi\ic_launcher.png
+    projectPath: Assets\Sprites\Icon\mipmap-xxhdpi\ic_launcher.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon\mipmap-xxhdpi\ic_launcher.png.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon\mipmap-xxhdpi\ic_launcher.png.meta
+    projectPath: Assets\Sprites\Icon\mipmap-xxhdpi\ic_launcher.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon\mipmap-xxxhdpi.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon\mipmap-xxxhdpi.meta
+    projectPath: Assets\Sprites\Icon\mipmap-xxxhdpi.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon\mipmap-xxxhdpi\ic_launcher.png
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon\mipmap-xxxhdpi\ic_launcher.png
+    projectPath: Assets\Sprites\Icon\mipmap-xxxhdpi\ic_launcher.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Icon\mipmap-xxxhdpi\ic_launcher.png.meta
+    fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Icon\mipmap-xxxhdpi\ic_launcher.png.meta
+    projectPath: Assets\Sprites\Icon\mipmap-xxxhdpi\ic_launcher.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\ProjectSettings.asset
+    fullPath: D:\Unity3D\Color Switch\ProjectSettings\ProjectSettings.asset
+    projectPath: ProjectSettings\ProjectSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Release.aab
+    fullPath: D:\Unity3D\Color Switch\Release.aab
+    projectPath: Release.aab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Release-v1.0-v3.symbols.zip
+    fullPath: D:\Unity3D\Color Switch\Release-v1.0-v3.symbols.zip
+    projectPath: Release-v1.0-v3.symbols.zip
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test-v1.2 -v4.symbols.zip
+    fullPath: D:\Unity3D\Color Switch\Test-v1.2 -v4.symbols.zip
+    projectPath: Test-v1.2 -v4.symbols.zip
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: user.keystore
+    fullPath: D:\Unity3D\Color Switch\user.keystore
+    projectPath: user.keystore
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1

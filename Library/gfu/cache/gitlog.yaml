@@ -1,0 +1,1686 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2019-10-06T10:58:40.868+05:30
+  initializedAtString: 2019-10-06T10:45:12.283+05:30
+  log:
+  - commitID: c6dc8fad41e5786cf20b4a621670c8dee267eee6
+    mergeA: 67e871eb627e955120d1765da7e7a65cd1a48aaa
+    mergeB: a4bb69695456d00188a939f5ed9b698fb55afbf2
+    authorName: Kaushal Agarwal
+    authorEmail: kaushalagarwal79@gmail.com
+    commitEmail: kaushalagarwal79@gmail.com
+    commitName: Kaushal Agarwal
+    summary: Merge branch 'master' of https://github.com/agarwalkaushal/Color-Switch
+    description: 
+    timeString: 2019-10-06T10:58:17.000+05:30
+    commitTimeString: 2019-10-06T10:58:17.000+05:30
+    changes: []
+  - commitID: 67e871eb627e955120d1765da7e7a65cd1a48aaa
+    mergeA: 
+    mergeB: 
+    authorName: Kaushal Agarwal
+    authorEmail: kaushalagarwal79@gmail.com
+    commitEmail: kaushalagarwal79@gmail.com
+    commitName: Kaushal Agarwal
+    summary: Index
+    description: 
+    timeString: 2019-10-06T10:53:24.000+05:30
+    commitTimeString: 2019-10-06T10:53:24.000+05:30
+    changes:
+    - path: index.html
+      fullPath: D:\Unity3D\Color Switch\index.html
+      projectPath: index.html
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: b034cabf4dab448ff5f8dd187a31ab226e9f418e
+    mergeA: 
+    mergeB: 
+    authorName: Kaushal Agarwal
+    authorEmail: kaushalagarwal79@gmail.com
+    commitEmail: kaushalagarwal79@gmail.com
+    commitName: Kaushal Agarwal
+    summary: Initial release
+    description: 
+    timeString: 2019-10-06T10:45:10.000+05:30
+    commitTimeString: 2019-10-06T10:45:10.000+05:30
+    changes:
+    - path: Assets\Audios\MainMenu.mp3
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\MainMenu.mp3
+      projectPath: Assets\Audios\MainMenu.mp3
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Audios\Platformer.mp3
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\Platformer.mp3
+      projectPath: Assets\Audios\Platformer.mp3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Audios\Platformer.mp3.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\Platformer.mp3.meta
+      projectPath: Assets\Audios\Platformer.mp3.meta
+      originalPath: Assets\Audios\MainMenu.mp3.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Audios\Superboy.mp3
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\Superboy.mp3
+      projectPath: Assets\Audios\Superboy.mp3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Audios\Superboy.mp3.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\Superboy.mp3.meta
+      projectPath: Assets\Audios\Superboy.mp3.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\DoubleCircle.prefab
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\DoubleCircle.prefab
+      projectPath: Assets\Prefabs\DoubleCircle.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\DoubleCircle.prefab.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\DoubleCircle.prefab.meta
+      projectPath: Assets\Prefabs\DoubleCircle.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Main.unity
+      fullPath: D:\Unity3D\Color Switch\Assets\Scenes\Main.unity
+      projectPath: Assets\Scenes\Main.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainMenu.unity
+      fullPath: D:\Unity3D\Color Switch\Assets\Scenes\MainMenu.unity
+      projectPath: Assets\Scenes\MainMenu.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Destroyer.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\Destroyer.cs
+      projectPath: Assets\Scripts\Destroyer.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\FollowPlayer.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\FollowPlayer.cs
+      projectPath: Assets\Scripts\FollowPlayer.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\GameOver.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\GameOver.cs
+      projectPath: Assets\Scripts\GameOver.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\MainMenu.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\MainMenu.cs
+      projectPath: Assets\Scripts\MainMenu.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\Player.cs
+      projectPath: Assets\Scripts\Player.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Rotator.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\Rotator.cs
+      projectPath: Assets\Scripts\Rotator.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Circle.psd
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Circle.psd
+      projectPath: Assets\Sprites\Circle.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Circle.psd.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Circle.psd.meta
+      projectPath: Assets\Sprites\Circle.psd.meta
+      originalPath: Assets\Sprites\Dashboard.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Sprites\Close.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Close.png
+      projectPath: Assets\Sprites\Close.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Sprites\Color Wheel.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Color Wheel.png.meta
+      projectPath: Assets\Sprites\Color Wheel.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Cross.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Cross.png
+      projectPath: Assets\Sprites\Cross.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Cross.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Cross.png.meta
+      projectPath: Assets\Sprites\Cross.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Dashboard.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Dashboard.png
+      projectPath: Assets\Sprites\Dashboard.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Sprites\Home.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Home.png
+      projectPath: Assets\Sprites\Home.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Home.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Home.png.meta
+      projectPath: Assets\Sprites\Home.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Medal.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Medal.png.meta
+      projectPath: Assets\Sprites\Medal.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Mute.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Mute.png
+      projectPath: Assets\Sprites\Mute.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Mute.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Mute.png.meta
+      projectPath: Assets\Sprites\Mute.png.meta
+      originalPath: Assets\Sprites\Question.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Sprites\PlusOne.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\PlusOne.png.meta
+      projectPath: Assets\Sprites\PlusOne.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\PlusTwo.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\PlusTwo.png.meta
+      projectPath: Assets\Sprites\PlusTwo.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Question.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Question.png
+      projectPath: Assets\Sprites\Question.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Sprites\Replay.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Replay.png
+      projectPath: Assets\Sprites\Replay.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Replay.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Replay.png.meta
+      projectPath: Assets\Sprites\Replay.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Road.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Road.png.meta
+      projectPath: Assets\Sprites\Road.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Settings.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Settings.png
+      projectPath: Assets\Sprites\Settings.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Sprites\Star.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Star.png.meta
+      projectPath: Assets\Sprites\Star.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Triangle.psd
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Triangle.psd
+      projectPath: Assets\Sprites\Triangle.psd
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Sprites\Triangle.psd.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Triangle.psd.meta
+      projectPath: Assets\Sprites\Triangle.psd.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Sprites\Volume Full.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Volume Full.png
+      projectPath: Assets\Sprites\Volume Full.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Volume Full.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Volume Full.png.meta
+      projectPath: Assets\Sprites\Volume Full.png.meta
+      originalPath: Assets\Sprites\Settings.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Sprites\Volume Low.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Volume Low.png
+      projectPath: Assets\Sprites\Volume Low.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Volume Low.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Volume Low.png.meta
+      projectPath: Assets\Sprites\Volume Low.png.meta
+      originalPath: Assets\Sprites\Close.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Sprites\wheel.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\wheel.png.meta
+      projectPath: Assets\Sprites\wheel.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: a4bb69695456d00188a939f5ed9b698fb55afbf2
+    mergeA: 
+    mergeB: 
+    authorName: Kaushal Agarwal
+    authorEmail: kaushalagarwal79@gmail.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create README.md
+    description: 
+    timeString: 2019-10-06T10:42:26.000+05:30
+    commitTimeString: 2019-10-06T10:42:26.000+05:30
+    changes:
+    - path: README.md
+      fullPath: D:\Unity3D\Color Switch\README.md
+      projectPath: README.md
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 204fde239417f7e5aeceb77a5aa77ccd27c707dc
+    mergeA: 
+    mergeB: 
+    authorName: Kaushal Agarwal
+    authorEmail: kaushalagarwal79@gmail.com
+    commitEmail: kaushalagarwal79@gmail.com
+    commitName: Kaushal Agarwal
+    summary: Animations
+    description: 
+    timeString: 2019-09-30T02:03:44.000+05:30
+    commitTimeString: 2019-09-30T02:03:44.000+05:30
+    changes:
+    - path: Assets\Anims\Golden Star.anim
+      fullPath: D:\Unity3D\Color Switch\Assets\Anims\Golden Star.anim
+      projectPath: Assets\Anims\Golden Star.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Anims\Golden Star.anim.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Anims\Golden Star.anim.meta
+      projectPath: Assets\Anims\Golden Star.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Anims\More Games.anim
+      fullPath: D:\Unity3D\Color Switch\Assets\Anims\More Games.anim
+      projectPath: Assets\Anims\More Games.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Anims\More Games.anim.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Anims\More Games.anim.meta
+      projectPath: Assets\Anims\More Games.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Anims\MoreGames.controller
+      fullPath: D:\Unity3D\Color Switch\Assets\Anims\MoreGames.controller
+      projectPath: Assets\Anims\MoreGames.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Anims\MoreGames.controller.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Anims\MoreGames.controller.meta
+      projectPath: Assets\Anims\MoreGames.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Anims\Play.anim
+      fullPath: D:\Unity3D\Color Switch\Assets\Anims\Play.anim
+      projectPath: Assets\Anims\Play.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Anims\Play.anim.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Anims\Play.anim.meta
+      projectPath: Assets\Anims\Play.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Anims\Play.controller
+      fullPath: D:\Unity3D\Color Switch\Assets\Anims\Play.controller
+      projectPath: Assets\Anims\Play.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Anims\Play.controller.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Anims\Play.controller.meta
+      projectPath: Assets\Anims\Play.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Anims\Plus One.anim
+      fullPath: D:\Unity3D\Color Switch\Assets\Anims\Plus One.anim
+      projectPath: Assets\Anims\Plus One.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Anims\Plus One.anim.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Anims\Plus One.anim.meta
+      projectPath: Assets\Anims\Plus One.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Anims\PlusOne.controller
+      fullPath: D:\Unity3D\Color Switch\Assets\Anims\PlusOne.controller
+      projectPath: Assets\Anims\PlusOne.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Anims\PlusOne.controller.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Anims\PlusOne.controller.meta
+      projectPath: Assets\Anims\PlusOne.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Anims\Star.controller
+      fullPath: D:\Unity3D\Color Switch\Assets\Anims\Star.controller
+      projectPath: Assets\Anims\Star.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Anims\Star.controller.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Anims\Star.controller.meta
+      projectPath: Assets\Anims\Star.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Audios\Click.mp3
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\Click.mp3
+      projectPath: Assets\Audios\Click.mp3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Audios\Click.mp3.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\Click.mp3.meta
+      projectPath: Assets\Audios\Click.mp3.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Audios\Fall.mp3
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\Fall.mp3
+      projectPath: Assets\Audios\Fall.mp3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Audios\Fall.mp3.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\Fall.mp3.meta
+      projectPath: Assets\Audios\Fall.mp3.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Audios\Hit.mp3
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\Hit.mp3
+      projectPath: Assets\Audios\Hit.mp3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Audios\Hit.mp3.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\Hit.mp3.meta
+      projectPath: Assets\Audios\Hit.mp3.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Audios\Jump.mp3
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\Jump.mp3
+      projectPath: Assets\Audios\Jump.mp3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Audios\Jump.mp3.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\Jump.mp3.meta
+      projectPath: Assets\Audios\Jump.mp3.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Audios\MainMenu.mp3
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\MainMenu.mp3
+      projectPath: Assets\Audios\MainMenu.mp3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Audios\MainMenu.mp3.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\MainMenu.mp3.meta
+      projectPath: Assets\Audios\MainMenu.mp3.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Audios\PlusOne.mp3
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\PlusOne.mp3
+      projectPath: Assets\Audios\PlusOne.mp3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Audios\PlusOne.mp3.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\PlusOne.mp3.meta
+      projectPath: Assets\Audios\PlusOne.mp3.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Audios\PlusTwo.mp3
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\PlusTwo.mp3
+      projectPath: Assets\Audios\PlusTwo.mp3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Audios\PlusTwo.mp3.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Audios\PlusTwo.mp3.meta
+      projectPath: Assets\Audios\PlusTwo.mp3.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Plus.prefab
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\Plus.prefab
+      projectPath: Assets\Prefabs\Plus.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Main.unity
+      fullPath: D:\Unity3D\Color Switch\Assets\Scenes\Main.unity
+      projectPath: Assets\Scenes\Main.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainMenu.unity
+      fullPath: D:\Unity3D\Color Switch\Assets\Scenes\MainMenu.unity
+      projectPath: Assets\Scenes\MainMenu.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Destroyer.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\Destroyer.cs
+      projectPath: Assets\Scripts\Destroyer.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\GameOver.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\GameOver.cs
+      projectPath: Assets\Scripts\GameOver.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GameOver.cs.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\GameOver.cs.meta
+      projectPath: Assets\Scripts\GameOver.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MainMenu.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\MainMenu.cs
+      projectPath: Assets\Scripts\MainMenu.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\Player.cs
+      projectPath: Assets\Scripts\Player.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Rotator.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\Rotator.cs
+      projectPath: Assets\Scripts\Rotator.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Close.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Close.png.meta
+      projectPath: Assets\Sprites\Close.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Dashboard.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Dashboard.png.meta
+      projectPath: Assets\Sprites\Dashboard.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Golden Star.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Golden Star.png
+      projectPath: Assets\Sprites\Golden Star.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Golden Star.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Golden Star.png.meta
+      projectPath: Assets\Sprites\Golden Star.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Home.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Home.png.meta
+      projectPath: Assets\Sprites\Home.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\PlusOne.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\PlusOne.png
+      projectPath: Assets\Sprites\PlusOne.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\PlusOne.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\PlusOne.png.meta
+      projectPath: Assets\Sprites\PlusOne.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\PlusTwo.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\PlusTwo.png
+      projectPath: Assets\Sprites\PlusTwo.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\PlusTwo.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\PlusTwo.png.meta
+      projectPath: Assets\Sprites\PlusTwo.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Replay.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Replay.png.meta
+      projectPath: Assets\Sprites\Replay.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 725bd0a18553fefc0eb94150bdddfaa1d91acafd
+    mergeA: 
+    mergeB: 
+    authorName: Kaushal Agarwal
+    authorEmail: kaushalagarwal79@gmail.com
+    commitEmail: kaushalagarwal79@gmail.com
+    commitName: Kaushal Agarwal
+    summary: New Shapes
+    description: 
+    timeString: 2019-09-29T02:50:34.000+05:30
+    commitTimeString: 2019-09-29T02:50:34.000+05:30
+    changes:
+    - path: Assets\Fonts\LuckiestGuy.ttf
+      fullPath: D:\Unity3D\Color Switch\Assets\Fonts\LuckiestGuy.ttf
+      projectPath: Assets\Fonts\LuckiestGuy.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\LuckiestGuy.ttf.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Fonts\LuckiestGuy.ttf.meta
+      projectPath: Assets\Fonts\LuckiestGuy.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\SEASRN__.ttf
+      fullPath: D:\Unity3D\Color Switch\Assets\Fonts\SEASRN__.ttf
+      projectPath: Assets\Fonts\SEASRN__.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\SEASRN__.ttf.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Fonts\SEASRN__.ttf.meta
+      projectPath: Assets\Fonts\SEASRN__.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Varela-Regular.otf
+      fullPath: D:\Unity3D\Color Switch\Assets\Fonts\Varela-Regular.otf
+      projectPath: Assets\Fonts\Varela-Regular.otf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Varela-Regular.otf.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Fonts\Varela-Regular.otf.meta
+      projectPath: Assets\Fonts\Varela-Regular.otf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Wicked Mouse Demo.otf
+      fullPath: D:\Unity3D\Color Switch\Assets\Fonts\Wicked Mouse Demo.otf
+      projectPath: Assets\Fonts\Wicked Mouse Demo.otf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Wicked Mouse Demo.otf.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Fonts\Wicked Mouse Demo.otf.meta
+      projectPath: Assets\Fonts\Wicked Mouse Demo.otf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\ColorChanger.prefab
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\ColorChanger.prefab
+      projectPath: Assets\Prefabs\ColorChanger.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Plus.prefab
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\Plus.prefab
+      projectPath: Assets\Prefabs\Plus.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Plus.prefab.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\Plus.prefab.meta
+      projectPath: Assets\Prefabs\Plus.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Point.prefab
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\Point.prefab
+      projectPath: Assets\Prefabs\Point.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Point.prefab.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\Point.prefab.meta
+      projectPath: Assets\Prefabs\Point.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\SmallCircle.prefab
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\SmallCircle.prefab
+      projectPath: Assets\Prefabs\SmallCircle.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Square.prefab
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\Square.prefab
+      projectPath: Assets\Prefabs\Square.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Triangle.prefab
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\Triangle.prefab
+      projectPath: Assets\Prefabs\Triangle.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Triangle.prefab.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\Triangle.prefab.meta
+      projectPath: Assets\Prefabs\Triangle.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Main.unity
+      fullPath: D:\Unity3D\Color Switch\Assets\Scenes\Main.unity
+      projectPath: Assets\Scenes\Main.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainMenu.unity
+      fullPath: D:\Unity3D\Color Switch\Assets\Scenes\MainMenu.unity
+      projectPath: Assets\Scenes\MainMenu.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainMenu.unity.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Scenes\MainMenu.unity.meta
+      projectPath: Assets\Scenes\MainMenu.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\FollowPlayer.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\FollowPlayer.cs
+      projectPath: Assets\Scripts\FollowPlayer.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\MainMenu.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\MainMenu.cs
+      projectPath: Assets\Scripts\MainMenu.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MainMenu.cs.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\MainMenu.cs.meta
+      projectPath: Assets\Scripts\MainMenu.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\Player.cs
+      projectPath: Assets\Scripts\Player.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Rotator.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\Rotator.cs
+      projectPath: Assets\Scripts\Rotator.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Ball.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Ball.png
+      projectPath: Assets\Sprites\Ball.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Ball.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Ball.png.meta
+      projectPath: Assets\Sprites\Ball.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Close.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Close.png
+      projectPath: Assets\Sprites\Close.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Close.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Close.png.meta
+      projectPath: Assets\Sprites\Close.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Color Wheel.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Color Wheel.png
+      projectPath: Assets\Sprites\Color Wheel.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Color Wheel.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Color Wheel.png.meta
+      projectPath: Assets\Sprites\Color Wheel.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Cross.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Cross.png
+      projectPath: Assets\Sprites\Cross.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Cross.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Cross.png.meta
+      projectPath: Assets\Sprites\Cross.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Dashboard.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Dashboard.png
+      projectPath: Assets\Sprites\Dashboard.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Dashboard.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Dashboard.png.meta
+      projectPath: Assets\Sprites\Dashboard.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Hand.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Hand.png
+      projectPath: Assets\Sprites\Hand.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Hand.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Hand.png.meta
+      projectPath: Assets\Sprites\Hand.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Home.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Home.png
+      projectPath: Assets\Sprites\Home.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Home.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Home.png.meta
+      projectPath: Assets\Sprites\Home.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Medal.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Medal.png
+      projectPath: Assets\Sprites\Medal.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Medal.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Medal.png.meta
+      projectPath: Assets\Sprites\Medal.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Play Button.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Play Button.png
+      projectPath: Assets\Sprites\Play Button.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Play Button.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Play Button.png.meta
+      projectPath: Assets\Sprites\Play Button.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Plus.psd
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Plus.psd
+      projectPath: Assets\Sprites\Plus.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Plus.psd.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Plus.psd.meta
+      projectPath: Assets\Sprites\Plus.psd.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Question.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Question.png
+      projectPath: Assets\Sprites\Question.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Question.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Question.png.meta
+      projectPath: Assets\Sprites\Question.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Replay.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Replay.png
+      projectPath: Assets\Sprites\Replay.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Replay.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Replay.png.meta
+      projectPath: Assets\Sprites\Replay.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Ribbon.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Ribbon.png
+      projectPath: Assets\Sprites\Ribbon.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Ribbon.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Ribbon.png.meta
+      projectPath: Assets\Sprites\Ribbon.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Road.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Road.png
+      projectPath: Assets\Sprites\Road.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Road.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Road.png.meta
+      projectPath: Assets\Sprites\Road.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Settings.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Settings.png
+      projectPath: Assets\Sprites\Settings.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Settings.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Settings.png.meta
+      projectPath: Assets\Sprites\Settings.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Small Circle.psd.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Small Circle.psd.meta
+      projectPath: Assets\Sprites\Small Circle.psd.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Square.psd.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Square.psd.meta
+      projectPath: Assets\Sprites\Square.psd.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Star.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Star.png
+      projectPath: Assets\Sprites\Star.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Star.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Star.png.meta
+      projectPath: Assets\Sprites\Star.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Triangle.psd
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Triangle.psd
+      projectPath: Assets\Sprites\Triangle.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Triangle.psd.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Triangle.psd.meta
+      projectPath: Assets\Sprites\Triangle.psd.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\wheel.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\wheel.png
+      projectPath: Assets\Sprites\wheel.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\wheel.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\wheel.png.meta
+      projectPath: Assets\Sprites\wheel.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: fab4111d27915675ef7443537a3911eaa3f92975
+    mergeA: 
+    mergeB: 
+    authorName: Kaushal Agarwal
+    authorEmail: kaushalagarwal79@gmail.com
+    commitEmail: kaushalagarwal79@gmail.com
+    commitName: Kaushal Agarwal
+    summary: Square Shape
+    description: 
+    timeString: 2019-09-26T00:54:35.000+05:30
+    commitTimeString: 2019-09-26T00:54:35.000+05:30
+    changes:
+    - path: Assets\Prefabs\Square.prefab
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\Square.prefab
+      projectPath: Assets\Prefabs\Square.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Square.prefab.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\Square.prefab.meta
+      projectPath: Assets\Prefabs\Square.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Main.unity
+      fullPath: D:\Unity3D\Color Switch\Assets\Scenes\Main.unity
+      projectPath: Assets\Scenes\Main.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\Player.cs
+      projectPath: Assets\Scripts\Player.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Rotator.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\Rotator.cs
+      projectPath: Assets\Scripts\Rotator.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Square.psd
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Square.psd
+      projectPath: Assets\Sprites\Square.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Square.psd.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Square.psd.meta
+      projectPath: Assets\Sprites\Square.psd.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 2311f7f5339251748542f5dd81d11b5efa75b8e1
+    mergeA: 
+    mergeB: 
+    authorName: Kaushal Agarwal
+    authorEmail: kaushalagarwal79@gmail.com
+    commitEmail: kaushalagarwal79@gmail.com
+    commitName: Kaushal Agarwal
+    summary: Iniital
+    description: Project Created
+    timeString: 2019-09-25T01:37:29.000+05:30
+    commitTimeString: 2019-09-25T01:37:29.000+05:30
+    changes:
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\ColorChanger.prefab
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\ColorChanger.prefab
+      projectPath: Assets\Prefabs\ColorChanger.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\ColorChanger.prefab.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\ColorChanger.prefab.meta
+      projectPath: Assets\Prefabs\ColorChanger.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\SmallCircle.prefab
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\SmallCircle.prefab
+      projectPath: Assets\Prefabs\SmallCircle.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\SmallCircle.prefab.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Prefabs\SmallCircle.prefab.meta
+      projectPath: Assets\Prefabs\SmallCircle.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Main.unity
+      fullPath: D:\Unity3D\Color Switch\Assets\Scenes\Main.unity
+      projectPath: Assets\Scenes\Main.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Main.unity.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Scenes\Main.unity.meta
+      projectPath: Assets\Scenes\Main.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Destroyer.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\Destroyer.cs
+      projectPath: Assets\Scripts\Destroyer.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Destroyer.cs.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\Destroyer.cs.meta
+      projectPath: Assets\Scripts\Destroyer.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\FollowPlayer.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\FollowPlayer.cs
+      projectPath: Assets\Scripts\FollowPlayer.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\FollowPlayer.cs.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\FollowPlayer.cs.meta
+      projectPath: Assets\Scripts\FollowPlayer.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\Player.cs
+      projectPath: Assets\Scripts\Player.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player.cs.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\Player.cs.meta
+      projectPath: Assets\Scripts\Player.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Rotator.cs
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\Rotator.cs
+      projectPath: Assets\Scripts\Rotator.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Rotator.cs.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Scripts\Rotator.cs.meta
+      projectPath: Assets\Scripts\Rotator.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Small Circle.psd
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Small Circle.psd
+      projectPath: Assets\Sprites\Small Circle.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Small Circle.psd.meta
+      fullPath: D:\Unity3D\Color Switch\Assets\Sprites\Small Circle.psd.meta
+      projectPath: Assets\Sprites\Small Circle.psd.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: D:\Unity3D\Color Switch\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NetworkManager.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\NetworkManager.asset
+      projectPath: ProjectSettings\NetworkManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: D:\Unity3D\Color Switch\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 49a26f80b6b2aae702a0f9e0208b31aaf26b2797
+    mergeA: 
+    mergeB: 
+    authorName: Kaushal Agarwal
+    authorEmail: kaushalagarwal79@gmail.com
+    commitEmail: kaushalagarwal79@gmail.com
+    commitName: Kaushal Agarwal
+    summary: Initial commit
+    description: 
+    timeString: 2019-09-25T01:29:30.000+05:30
+    commitTimeString: 2019-09-25T01:29:30.000+05:30
+    changes:
+    - path: .gitattributes
+      fullPath: D:\Unity3D\Color Switch\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .gitignore
+      fullPath: D:\Unity3D\Color Switch\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\.gitignore
+      fullPath: D:\Unity3D\Color Switch\Assets\.gitignore
+      projectPath: Assets\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0

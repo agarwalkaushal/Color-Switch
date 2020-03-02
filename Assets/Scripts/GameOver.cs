@@ -17,7 +17,6 @@ public class GameOver : MonoBehaviour
         score.SetActive(false);
         plusOneUI.SetActive(false);
         plusTwoUI.SetActive(false);
-
     }
 
     public void Replay()
